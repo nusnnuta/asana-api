@@ -15,9 +15,9 @@ export default async function handler(req, res) {
 
   const data = {
     data: {
-      name: `בקשה אוטומטית בטלפון ${phone_input}`,
+      name: `בקשה טלפונית אוטומטית ${phone_input}`,
       assignee: '1206304491943748',
-      notes: `מספר חשבון הבנק: ${bank_account}\nסיבת הבקשה: ${reason}\n${phone}`,
+      notes: `מספר חשבון הבנק: ${bank_account}\nסיבת הבקשה: ${reason}\nהמספר ממנו חייג: ${phone}`,
       projects: ['1206308032337675', '1207075560098244'],
       custom_fields: {
         '1206304232493683': phone_input,
