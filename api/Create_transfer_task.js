@@ -9,7 +9,7 @@ export default async function handler(req, res) {
   const bank_account = P051 || '';
   const amount = P052 || '';
   const reason = P053 || '';
-  const phone = phone || 'לא זוהה';
+  const phone = Phone || 'לא זוהה';
 
   const asana_token = '2/1206304491943748/1210400468232988:cf5e32dc1d9ef20920e6c79171ae762e';
 
